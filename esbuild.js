@@ -7,6 +7,9 @@ esbuild
         bundle: true,
         minify: true,
         plugins: [],
+        loader: {
+            ".png" : "file"
+        }
     })
     .then(() => console.log("Esbuild complete!"))
     .catch(() => process.exit(1))

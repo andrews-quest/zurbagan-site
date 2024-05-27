@@ -1,0 +1,11 @@
+main {
+    width: 85vw;
+    height: 3000px;
+    background-color: blueviolet;
+    color: white;
+    padding: 3%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
