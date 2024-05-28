@@ -1,0 +1,14 @@
+footer {
+    width: 100wv;
+    height: 250px;
+    min-height: 150px;
+    display: block;
+    overflow: auto;
+    background-color: gray;
+    margin-top: 0.5%;
+}
+
+footer p{
+    color: white;
+    
+}
