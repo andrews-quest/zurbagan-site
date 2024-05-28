@@ -20,9 +20,9 @@ export const Header: React.FC<{
             </div>
             <div id="buttons">
                 <a><div id="button" ><p>ПРО НАC</p></div></a>
-                <div id="button"><p>АБОНЕНТАМ</p></div>
-                <div id="button"><p>ПІДКЛЮЧИТИСЯ</p></div>
-                <div id="button"><p>НОВИНИ</p></div>
+                <a><div id="button"><p>АБОНЕНТАМ</p></div></a>
+                <a><div id="button"><p>ПІДКЛЮЧИТИСЯ</p></div></a>
+                <a><div id="button"><p>НОВИНИ</p></div></a>
             </div>
         </header>
     );

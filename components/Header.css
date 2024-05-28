@@ -35,21 +35,40 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    display: block;
+    display: flex;
 }
 
-#button {
+a {
+    display: block;
+    margin: 0;
     height: 100%;
     width: 25%;
     border: solid 1px white;
-    display: inline-block;
     box-sizing: border-box;
+}
+
+a #button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     overflow: auto;
 }
 
 #button p {
-    margin-top: 10px;
-    position: relative;
+    display: box;
     color: white;
+    font-size: clamp(12px, 1.5vw, 2vw);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 30vh;
+    }
+
+    #banner h1 {
+        font-size: 15vh;
+    }
 }
