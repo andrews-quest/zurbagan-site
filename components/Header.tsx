@@ -1,5 +1,7 @@
 import React from "react";
-import "./Header.css" 
+import "./Header.css";
+import zurbLogo from "../resources/images/logo_navbar.png";
+import kStarLogo from "../resources/images/kyivstar_logo.png";
 
 
 export const Header: React.FC<{
@@ -19,10 +21,12 @@ export const Header: React.FC<{
         <header>
             <div id="banner">
                 <div id="banner_left">
+                    <img src={zurbLogo}></img>
                     <h1>{textHeader}</h1>
-                </div>                
+                </div>
                 <div id="banner_right">
-                    <h2>{textRightBanner}</h2>
+                    <img src={kStarLogo}></img>
+                    <h2 dangerouslySetInnerHTML={{__html:textRightBanner}}></h2>
                 </div>
             </div>
                 <div id="buttons">

@@ -1,16 +1,18 @@
 header {
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     min-height: 130px;
     display: block;
     margin-top: 8vh;
-}
+    margin-bottom: 20hv;
+} 
 
 #banner {
     height: 70%;
     width: 100%;
-    background-size: contain;
-    background-image: linear-gradient(to top, white, transparent), url("../resources/images/header_2.png"); 
+    position: relative;
+    background-size: cover;
+    background-image: linear-gradient(to left, #1e1e2ac3, transparent), linear-gradient(to right, #1e1e2ac3, transparent), url("../resources/images/header_2.png"); 
     margin-top: 0;
     display: inline-flex;
 }
@@ -67,8 +69,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: -100px;
 }
 
 a {
