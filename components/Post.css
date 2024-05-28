@@ -1,0 +1,17 @@
+#post {
+    overflow: auto;
+    position: relative;
+    background-color: #0D545E;
+    display: block;
+    flex: 1;
+    max-width: 400px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#post p {
+    margin: 8%;
+    position: relative;
+    color: white;
+    border: none;
+}
