@@ -9,7 +9,8 @@ import "./App.css"
 export default function App() {
     return <>
     <Navbar />
-    <Header textHeader={"ЗУРБАГАН"} />
+    <Header textHeader={"ЗУРБАГАН"} 
+        textRightBanner={"067 300 22 00 <br> 066 300 22 00 <br> 073 200 22 00 <br> info@zurbagan.tv"} />
     <PostsDisplay />
     <Footer />
     </>

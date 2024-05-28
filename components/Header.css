@@ -13,15 +13,41 @@ header {
     background-image: linear-gradient(to top, white, transparent), url("../resources/images/header_2.png"); 
     margin-top: 0;
     display: block;
-    text-align: right;
 }
 
-#banner h1 {
+#banner_left{
+    width: 50%;
+    height: 70%;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner_left h1 {
     margin: 0;
     position: relative;
     color: white;
     font-family: "Arial Black";
-    font-size: 25vh;
+    font-size: 25;
+}
+
+#banner_right{
+    width: 50%;
+    height: 70%;
+    box-sizing: border-box;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner_right h2 {
+    margin: 0;
+    position: relative;
+    color: white;
+    font-size: 25;
 }
 
 #gradient{

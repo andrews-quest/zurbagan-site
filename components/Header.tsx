@@ -3,9 +3,11 @@ import "./Header.css"
 
 
 export const Header: React.FC<{
-    textHeader: String
+    textHeader: String,
+    textRightBanner: String
 }> = ({
-    textHeader
+    textHeader,
+    textRightBanner
 }) => {
     function buttonClick(){
         return this.setState({
@@ -16,7 +18,12 @@ export const Header: React.FC<{
     return (
         <header>
             <div id="banner">
-                <h1>{textHeader}</h1>
+                <div id="banner_left">
+                    <h1>{textHeader}</h1>
+                </div>                
+                <div id="banner_right">
+                    <h2>{textRightBanner}</h2>
+                </div>
                 <div id="buttons">
                     <a><div id="button" ><p>ПРО НАC</p></div></a>
                     <a><div id="button"><p>АБОНЕНТАМ</p></div></a>
