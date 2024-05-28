@@ -10,7 +10,7 @@ header {
     height: 100%;
     width: 100%;
     background-size: contain;
-    background-image: url("../resources/images/header_2.png"); 
+    background-image: linear-gradient(to top, white, transparent), url("../resources/images/header_2.png"); 
     margin-top: 0;
     display: block;
     text-align: right;
@@ -22,6 +22,12 @@ header {
     color: white;
     font-family: "Arial Black";
     font-size: 25vh;
+}
+
+#gradient{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient();
 }
 
 #buttons {

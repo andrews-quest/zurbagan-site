@@ -10,7 +10,4 @@ body, html{
 
 body{
     background-color: white;
-    background-image: url("../resources/images/bg_top.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
