@@ -10,7 +10,7 @@ export const Navbar: React.FC <{
     return (
         <div id="navbar">
             <img src={logo}></img>
-            <div id="account_button">Особистий Кабінет</div>
+            <div id="account_button">Мій Кабінет</div>
         </div>
     )
 }

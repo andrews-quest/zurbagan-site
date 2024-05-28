@@ -7,11 +7,14 @@ export const Footer: React.FC <{
 
 }) => {
     return (
+        <>
         <footer>
-            <a>
-            TOV Zurbagan
-            Tel. +3800000000 
-            </a>
+            <div id="footer_gradient"></div>
+            <p>
+                TOV Zurbagan
+                Tel. +3800000000 
+            </p>
         </footer>
+        </>
     )
 }
