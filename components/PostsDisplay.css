@@ -31,3 +31,9 @@ main {
     margin-bottom: 1%;
     position: relative;
 }
+
+@media (max-width: 600px) {
+    main {
+        width: 94vw;
+    }
+}
