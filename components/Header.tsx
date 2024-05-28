@@ -19,10 +19,10 @@ export const Header: React.FC<{
                <h1>{textHeader}</h1>
             </div>
             <div id="buttons">
-                <a><div id="button" >ПРО НАС</div></a>
-                <div id="button">АБОНЕНТАМ</div>
-                <div id="button">ПІДКЛЮЧИТИСЯ</div>
-                <div id="button">НОВИНИ</div>
+                <a><div id="button" ><p>ПРО НАC</p></div></a>
+                <div id="button"><p>АБОНЕНТАМ</p></div>
+                <div id="button"><p>ПІДКЛЮЧИТИСЯ</p></div>
+                <div id="button"><p>НОВИНИ</p></div>
             </div>
         </header>
     );
