@@ -16,7 +16,7 @@ export const Header: React.FC<{
     return (
         <header>
             <div id="banner">
-                <h1>{textHeader}</h1>
+               <h1>{textHeader}</h1>
             </div>
             <div id="buttons">
                 <a><div id="button" >ПРО НАС</div></a>
