@@ -29,7 +29,7 @@ header {
 #buttons {
     width: 90%;
     height: 30%;
-    min-height: 10vh;
+    min-height: 2em;
     background-color: aquamarine;
     margin-left: auto;
     margin-right: auto;
