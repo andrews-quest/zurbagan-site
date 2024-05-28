@@ -24,13 +24,13 @@ export const Header: React.FC<{
                 <div id="banner_right">
                     <h2>{textRightBanner}</h2>
                 </div>
+            </div>
                 <div id="buttons">
                     <a><div id="button" ><p>ПРО НАC</p></div></a>
                     <a><div id="button"><p>АБОНЕНТАМ</p></div></a>
                     <a><div id="button"><p>ПІДКЛЮЧИТИСЯ</p></div></a>
                     <a><div id="button"><p>НОВИНИ</p></div></a>
                 </div>
-            </div>
         </header>
     );
 }

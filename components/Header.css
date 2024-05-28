@@ -1,23 +1,23 @@
 header {
     width: 100%;
-    height: 45vh;
+    height: 55vh;
     min-height: 130px;
     display: block;
     margin-top: 8vh;
 }
 
 #banner {
-    height: 100%;
+    height: 70%;
     width: 100%;
     background-size: contain;
     background-image: linear-gradient(to top, white, transparent), url("../resources/images/header_2.png"); 
     margin-top: 0;
-    display: block;
+    display: inline-flex;
 }
 
 #banner_left{
     width: 50%;
-    height: 70%;
+    height: 100%;
     margin: 0;
     box-sizing: border-box;
     display: inline-flex;
@@ -35,7 +35,7 @@ header {
 
 #banner_right{
     width: 50%;
-    height: 70%;
+    height: 100%;
     box-sizing: border-box;
     margin: 0;
     display: inline-flex;
@@ -60,15 +60,21 @@ header {
     width: 100%;
     height: 30%;
     min-height: 30px;
-    background-color: #1ECBE1;
+    background-color: #06291C;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -100px;
 }
 
 a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     height: 100%;
     width: 19%;
@@ -89,6 +95,7 @@ a #button {
     font-size: clamp(12px, 1.5vw, 2vw);
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow: visible;
 }
 
 @media (max-width: 600px) {
