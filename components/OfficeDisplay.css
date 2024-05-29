@@ -1,6 +1,7 @@
 #office_display {
-    height: 500px;
-    width: 60%;
-    background-color: grey;
-    margin-top: 30px;
+    height: 250px;
+    width: 100%;
+    background-color: #1e1e2ae6;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
