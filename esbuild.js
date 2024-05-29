@@ -8,7 +8,8 @@ esbuild
         minify: true,
         plugins: [],
         loader: {
-            ".png" : "file"
+            ".png" : "file",
+            ".jpg" : "file"
         }
     })
     .then(() => console.log("Esbuild complete!"))

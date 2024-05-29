@@ -13,6 +13,7 @@
     justify-content: center;
     position: absolute;
     top: 275px;
+    z-index: 1;
 }
 
 a {
@@ -22,8 +23,7 @@ a {
     margin: 0;
     height: 100%;
     width: 19%;
-    border: solid 1px white;
-    box-sizing: border-box;
+    color: white;
 }
 
 a #button {
@@ -33,9 +33,14 @@ a #button {
     text-align: center;
 }
 
+a:hover {
+    background-color: white;
+    color: #06291C;
+}
+
 #button h2 {
-    display: box;
-    color: white;
+    display: flex;
+    color: inherit;
     font-size: clamp(12px, 1.5vw, 2vw);
     margin-top: 10px;
     margin-bottom: 10px;

@@ -11,7 +11,7 @@ export const BigMenu : React.FC <{
                     <a><div id="button" ><h2>ПРО НАC</h2></div></a>
                     <a><div id="button"><h2>АБОНЕНТАМ</h2></div></a>
                     <a><div id="button"><h2>ПІДКЛЮЧИТИСЯ</h2></div></a>
-                    <a><div id="button"><h2>CЛУЖБА<br/> </h2></div></a>
+                    <a><div id="button"><h2>CЛУЖБА<br/>ПІДТРИМКИ</h2></div></a>
                 </div>
     )
 }
