@@ -41,10 +41,10 @@ export const Header: React.FC<{
                 </div>
             </div>
                 <div id="buttons">
-                    <a><div id="button" ><p>ПРО НАC</p></div></a>
-                    <a><div id="button"><p>АБОНЕНТАМ</p></div></a>
-                    <a><div id="button"><p>ПІДКЛЮЧИТИСЯ</p></div></a>
-                    <a><div id="button"><p>НОВИНИ</p></div></a>
+                    <a><div id="button" ><h2>ПРО НАC</h2></div></a>
+                    <a><div id="button"><h2>АБОНЕНТАМ</h2></div></a>
+                    <a><div id="button"><h2>ПІДКЛЮЧИТИСЯ</h2></div></a>
+                    <a><div id="button"><h2>CЛУЖБА<br/>ПІДТРИМКИ</h2></div></a>
                 </div>
         </header>
     );

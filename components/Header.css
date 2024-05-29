@@ -101,7 +101,7 @@ a #button {
     text-align: center;
 }
 
-#button p {
+#button h2 {
     display: box;
     color: white;
     font-size: clamp(12px, 1.5vw, 2vw);
