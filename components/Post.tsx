@@ -2,15 +2,25 @@ import React from "react";
 import "./Post.css";
 
 export const Post: React.FC <{
-    text : string
+    heading : string,
+    text : string,
+    date : string
 }> = ({
-    text
+    heading,
+    text,
+    date
 }) => {
 
     return (
         <div id="post">
+            <h3>
+                {heading}
+            </h3>
             <p>
                 {text}
+            </p>
+            <p id="date">
+                {date}
             </p>
         </div>
     )

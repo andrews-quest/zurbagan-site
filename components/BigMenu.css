@@ -41,7 +41,7 @@ a:hover {
 #button h2 {
     display: flex;
     color: inherit;
-    font-size: clamp(12px, 1.5vw, 2vw);
+    font-size: 20px; 
     margin-top: 10px;
     margin-bottom: 10px;
     overflow: visible;
