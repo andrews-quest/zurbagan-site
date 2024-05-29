@@ -1,0 +1,16 @@
+#offers_display {
+    width: 80%;
+    height: 400px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#offer {
+    height: 90%;
+    width: 35%;
+    background-color: greenyellow;
+    margin-right: 25px;
+}

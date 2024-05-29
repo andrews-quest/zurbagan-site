@@ -5,6 +5,7 @@ import {Header} from "./Header"
 import {BigMenu} from "./BigMenu"
 import {PostsDisplay} from "./PostsDisplay"
 import {AdBanner} from "./AdBanner"
+import {OffersDisplay} from "./OffersDisplay"
 import {Footer} from "./Footer"
 import "./App.css"
 import adBannerSrc from "../resources/images/ad_banner.jpg"
@@ -18,6 +19,7 @@ export default function App() {
     <main>
         <PostsDisplay />
         <AdBanner ad_banner_src={adBannerSrc}/>
+        <OffersDisplay />
         <Footer />
         <div id="main_gradient"></div>
     </main>
