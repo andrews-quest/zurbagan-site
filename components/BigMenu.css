@@ -28,14 +28,38 @@ a {
 
 a #button {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+#button div {
+    width:min-content;
+}
+
+#button img {
+    height: 80px;
+}
+
+#button #green {
+    display: none;
+    position: absolute;
+    top: 11px;
+}
+
 a:hover {
     background-color: white;
     color: #06291C;
+    cursor: pointer;
+}
+
+#a:hover #button > #green {
+    display: block;
+}
+
+#a:hover #white {
+    display: none;
 }
 
 #button h2 {
