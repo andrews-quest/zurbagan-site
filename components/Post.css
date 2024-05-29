@@ -1,12 +1,15 @@
 #post {
     overflow: auto;
     position: relative;
-    background-color: #0d5e3f;
+    background-color: #079A90;
     display: block;
     flex: 1;
     max-width: 400px;
     margin-top: 1%;
     margin-bottom: 1%;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    border-radius: 12px;
 }
 
 #post p {

@@ -25,7 +25,6 @@ export default function App() {
         <OfficeDiplay />
         <CompanyInfoDisplay />
         <Footer />
-        <div id="main_gradient"></div>
     </main>
     </>
 }
