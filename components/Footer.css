@@ -14,11 +14,11 @@ footer {
 
 footer #footer_gradient {
     width: 100%;
-    height: 250px;
+    height: 20px;
     display: block;     
     position: absolute;
     bottom: 250px;
-    background-image: linear-gradient(to top, #1D1D29, #40405a, #464664, #606088, transparent);
+    background-image: linear-gradient(to top, #1D1D29, transparent);
     margin: 0;
     padding-bottom: 5%;
     z-index: -10;
