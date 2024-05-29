@@ -32,6 +32,7 @@ header {
 
 #banner_text_half img {
     height: 75px;
+    cursor: pointer;
 }
 
 #banner_text_half h1 {
@@ -40,11 +41,14 @@ header {
     color: white;
     font-family: "Arial Black";
     font-size: 75px;
+    top: 11px;
 }
 
 #banner_text_half h3 {
     color: white;
     font-size: 20px;
+    top: 11px;
+    cursor: pointer;
 }
 
 #banner_text_half{
@@ -62,6 +66,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #banner_text_half div h2 {
@@ -74,6 +79,7 @@ header {
 
 #banner_text_half div h2:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #banner_text_half #banner_logo {

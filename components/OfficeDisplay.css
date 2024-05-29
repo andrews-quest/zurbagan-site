@@ -23,6 +23,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 #office_view img {
@@ -53,6 +54,7 @@
 
 #schedule div:hover{
     background-color: rgb(126, 125, 125);
+    cursor: pointer;
 }
 
 #schedule h3 {

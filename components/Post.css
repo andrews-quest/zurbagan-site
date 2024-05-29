@@ -14,7 +14,7 @@
     width: 400px;
     color: white;
     box-sizing: border-box;
-    border: solid transparent 5px;
+    cursor: pointer;
 }
 
 
@@ -37,5 +37,4 @@
     color: #06291C;
     background-color: white;
     border: dashed #06291C 5px;
-    box-sizing: border-box;
 }
