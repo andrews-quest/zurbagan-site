@@ -21,6 +21,7 @@ export const Header: React.FC<{
     } 
 
     return (
+        <>
         <header>
             <div id="banner">
                 <div id="banner_left">
@@ -41,5 +42,7 @@ export const Header: React.FC<{
                 </div>
             </div>
         </header>
+        <div id="banner_gradient"></div>
+        </>
     );
 }

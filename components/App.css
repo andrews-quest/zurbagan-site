@@ -19,4 +19,6 @@ main {
     position: absolute;
     top: 400px;
     width: 100%;
+    background-color: white;
+    padding-top: 50px;
 }

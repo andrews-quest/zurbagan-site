@@ -3,9 +3,10 @@ header {
     height: 450px;
     min-height: 130px;
     display: block;
-    margin-top: 8vh;
+    margin-top: 50px;
     margin-bottom: 20hv;
     z-index: -5px;
+    position: fixed;
 } 
 
 #banner {
@@ -13,13 +14,13 @@ header {
     width: 100%;
     position: absolute;
     background-size: cover;
-    background-image: linear-gradient(to left, #000000c3, transparent, #000000c3), linear-gradient(to top, #000000c3, transparent), url("../resources/images/header_2.png");
+    background-image:  url("../resources/images/header_2.png");
     background-color: black; 
     margin-top: 0;
     display: inline-flex;
 }
 
-#banner_left{
+#banner_left {
     width: 50%;
     height: 100%;
     margin: 0;
@@ -65,10 +66,13 @@ header {
     height: 20px;
 }
 
-#gradient{
+#banner_gradient{
     width: 100%;
-    height: 100%;
-    background-image: linear-gradient();
+    height: 225px;
+    background-image: linear-gradient(to left, #000000c3, transparent, #000000c3), linear-gradient(to top, #000000c3, transparent);
+    margin-top: 50px;
+    z-index: 3;
+    position: absolute;
 }
 
 @media (max-width: 600px) {

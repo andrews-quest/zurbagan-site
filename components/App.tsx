@@ -12,8 +12,8 @@ export default function App() {
     <Navbar />
     <Header textHeader={"ЗУРБАГАН"} 
         textRightBanner={["067 300 22 00", "066 300 22 00", "073 200 22 00", "info@zurbagan.tv"]} />
+    <BigMenu />
     <main>
-        <BigMenu />
         <PostsDisplay />
         <Footer />
     </main>
