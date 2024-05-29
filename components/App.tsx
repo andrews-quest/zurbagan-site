@@ -6,6 +6,8 @@ import {BigMenu} from "./BigMenu"
 import {PostsDisplay} from "./PostsDisplay"
 import {AdBanner} from "./AdBanner"
 import {OffersDisplay} from "./OffersDisplay"
+import {OfficeDiplay} from "./OfficeDisplay"
+//import {CompanyInfoDisplay} from "./CompanyInfoDisplay"
 import {Footer} from "./Footer"
 import "./App.css"
 import adBannerSrc from "../resources/images/ad_banner.jpg"
@@ -20,6 +22,7 @@ export default function App() {
         <PostsDisplay />
         <AdBanner ad_banner_src={adBannerSrc}/>
         <OffersDisplay />
+        <OfficeDiplay />
         <Footer />
         <div id="main_gradient"></div>
     </main>
