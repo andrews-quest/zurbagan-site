@@ -12,7 +12,8 @@ header {
     width: 100%;
     position: relative;
     background-size: cover;
-    background-image: linear-gradient(to left, #1e1e2ac3, transparent), linear-gradient(to right, #1e1e2ac3, transparent), url("../resources/images/header_2.png"); 
+    background-image: linear-gradient(to left, #000000c3, transparent, #000000c3), linear-gradient(to top, #000000c3, transparent), url("../resources/images/header_2.png");
+    background-color: black; 
     margin-top: 0;
     display: inline-flex;
 }
@@ -25,6 +26,10 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+#banner_left img {
+    height: 35px;
 }
 
 #banner_left h1 {
@@ -45,11 +50,18 @@ header {
     justify-content: center;
 }
 
-#banner_right h2 {
+#banner_right div h2{
+    display: inline;
     margin: 0;
     position: relative;
     color: white;
     font-size: 25;
+}
+
+
+#banner_right #banner_logo {
+    display: inline-block;
+    height: 20px;
 }
 
 #gradient{

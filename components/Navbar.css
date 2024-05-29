@@ -15,7 +15,9 @@
 }
 
 #navbar img {
-    display: flex;
+    display: block;
+    height: 40px;
+    width: auto;
 }
 
 #account_button {
