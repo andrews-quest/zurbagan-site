@@ -1,5 +1,5 @@
 #office_display {
-    height: 250px;
+    height: 350px;
     width: 100%;
     background-color: #1e1e2ae6;
     padding-top: 20px;
@@ -34,17 +34,39 @@
     width: 33%;
     height: 100%;
     display: flex;
-    justify-content: baseline;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
     padding-left: 20px;
+}
+
+#schedule div {
+    height: 90%;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(145, 145, 145);
+}
+
+#schedule div:hover{
+    background-color: rgb(126, 125, 125);
+}
+
+#schedule h3 {
+    color: white;
+    font-size: 27px;
 }
 
 #schedule p {
     color: white;
     display: block;
+    font-size: 22px;
 }
 
 iframe {
     height: 90%;
-    width: 250px;
+    aspect-ratio: 1;
 }
