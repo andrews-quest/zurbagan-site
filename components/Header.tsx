@@ -23,12 +23,13 @@ export const Header: React.FC<{
     return (
         <>
         <header>
-            <div id="banner">
-                <div id="banner_left">
+            <div id="banner"></div>
+            <div id="banner_text_div">
+                <div id="banner_text_half">
                     <img src={zurbLogo}></img>
                     <h1>{textHeader}</h1>
                 </div>
-                <div id="banner_right">
+                <div id="banner_text_half">
                     <div>
                     <img id="banner_logo" src={kStarLogo}></img>
                     <h2>{textRightBanner[0]}<br/></h2>
@@ -36,12 +37,13 @@ export const Header: React.FC<{
                     <h2>{textRightBanner[1]}<br/></h2>
                     <img id="banner_logo" src={lCellLogo}></img>
                     <h2>{textRightBanner[2]}<br/></h2>
-                    <img id="banner_logo" src={kStarLogo}></img>
+                    <img id="banner_logo" src={emailLogo}></img>
                     <h2>{textRightBanner[3]}</h2>
                     </div>
                 </div>
             </div>
         </header>
+            
         <div id="banner_gradient"></div>
         </>
     );
