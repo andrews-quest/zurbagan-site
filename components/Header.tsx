@@ -26,8 +26,11 @@ export const Header: React.FC<{
             <div id="banner"></div>
             <div id="banner_text_div">
                 <div id="banner_text_half">
-                    <img src={zurbLogo}></img>
-                    <h1>{textHeader}</h1>
+                    <div id="logo_and_name">
+                        <img src={zurbLogo}></img>
+                        <h1>{textHeader}</h1>
+                    </div>
+                    <h3>ІНТЕРНЕТ-ПРОВАЙДЕР, ЩО ЗАВЖДИ ПОРУЧ</h3>
                 </div>
                 <div id="banner_text_half">
                     <div>
