@@ -9,7 +9,6 @@ export const Footer: React.FC <{
     return (
         <>
         <footer>
-            <div id="footer_gradient"></div>
             <p>
                 TOV Zurbagan
                 Tel. +3800000000 
