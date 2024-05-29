@@ -9,7 +9,8 @@ esbuild
         plugins: [],
         loader: {
             ".png" : "file",
-            ".jpg" : "file"
+            ".jpg" : "file",
+            ".svg" : "text"
         }
     })
     .then(() => console.log("Esbuild complete!"))

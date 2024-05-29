@@ -34,18 +34,14 @@ a #button {
     text-align: center;
 }
 
-#button div {
-    width:min-content;
-}
-
 #button img {
     height: 80px;
 }
 
-#button #green {
-    display: none;
+#button #green{
     position: absolute;
     top: 11px;
+    fill: white;
 }
 
 a:hover {
@@ -54,13 +50,10 @@ a:hover {
     cursor: pointer;
 }
 
-#a:hover #button > #green {
-    display: block;
+a:hover img{
+    filter: brightness(0);
 }
 
-#a:hover #white {
-    display: none;
-}
 
 #button h2 {
     display: flex;
