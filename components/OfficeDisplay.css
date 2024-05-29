@@ -4,4 +4,47 @@
     background-color: #1e1e2ae6;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+#office_view {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#office_view img {
+    width: auto;
+    height: 90%;
+}
+
+#schedule {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#schedule p {
+    color: white;
+    display: block;
+}
+
+iframe {
+    height: 90%;
+    width: 250px;
 }
