@@ -1,4 +1,4 @@
-main {
+#posts_display {
     width: 85vw;
     min-height: 400px;
     background-color: #0d5e3f;
@@ -33,7 +33,7 @@ main {
 }
 
 @media (max-width: 600px) {
-    main {
+    #posts_display {
         width: 94vw;
     }
 }

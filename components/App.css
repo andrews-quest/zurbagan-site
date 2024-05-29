@@ -14,3 +14,9 @@ body{
     background-color: white;
     background-image: linear-gradient(to top, #1D1D29, transparent);
 }
+
+main {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+}

@@ -2,6 +2,7 @@ import React from "react"
 import  ReactDOM from "react-dom/client"
 import {Navbar} from "./Navbar"
 import {Header} from "./Header"
+import {BigMenu} from "./BigMenu"
 import {PostsDisplay} from "./PostsDisplay"
 import {Footer} from "./Footer"
 import "./App.css"
@@ -11,8 +12,11 @@ export default function App() {
     <Navbar />
     <Header textHeader={"ЗУРБАГАН"} 
         textRightBanner={["067 300 22 00", "066 300 22 00", "073 200 22 00", "info@zurbagan.tv"]} />
-    <PostsDisplay />
-    <Footer />
+    <main>
+        <BigMenu />
+        <PostsDisplay />
+        <Footer />
+    </main>
     </>
 }
 
